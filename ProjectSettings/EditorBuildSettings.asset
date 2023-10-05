@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Eternal Temple/Scenes/Dungeon_Demo_01.unity
     guid: 2993c800a55b5574783fa922cabf54fe
+  - enabled: 1
+    path: Assets/Eternal Temple/Scenes/Top-Down Demo 01.unity
+    guid: 384ca773e814cb443942206de15aed2f
   m_configObjects: {}

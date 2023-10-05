@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
     public bool death;
 
     public Transform GameOver;
+    
     private void Start()
     {
         death = false;

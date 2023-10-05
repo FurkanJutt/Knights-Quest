@@ -116,6 +116,10 @@ public class Enemy : MonoBehaviour
         // check for if the enemy needs to die
         if(health <= 0)
         {
+            if (GameManager.instance.enemyGroup1Count > 0)
+                GameManager.instance.enemyGroup1Count--;
+            else
+                GameManager.instance.enemyGroup2Count--;
             SoundManager.Instance.stopMonsterSound();
             isDead = true;
             agent.isStopped = true;
